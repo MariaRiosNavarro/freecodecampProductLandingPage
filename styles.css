@@ -7,8 +7,6 @@
 
 body {
     background: linear-gradient(315deg, #a40606 0%, #d98324 74%);
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
