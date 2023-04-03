@@ -16,6 +16,11 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+#header-img {
+    width: 2rem;
+    
+}
     
 
 
