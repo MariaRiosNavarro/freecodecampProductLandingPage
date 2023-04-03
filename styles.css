@@ -4,13 +4,13 @@
     box-sizing: border-box; 
 }
 
+header {
+    display: flex;
+    justify-content: center;
+}
+
 #nav-bar{
     position: fixed;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: center;
- 
 }
 
 main {
