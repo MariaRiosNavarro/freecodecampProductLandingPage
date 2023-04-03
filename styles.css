@@ -5,8 +5,12 @@
 }
 
 #nav-bar{
-    position: sticky;
-    top: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+ 
 }
 
 main {
