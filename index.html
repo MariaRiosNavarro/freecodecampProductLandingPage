@@ -10,27 +10,27 @@
 <body>
     <header id="header">
         <div class="logo-container">
-        <img src="img/FireLogo.png" alt="FireLogo" class="fire-logo" id="header-img">
+        <img src="https://static.vecteezy.com/system/resources/previews/000/627/032/original/fire-vector-icon-logo.jpg" alt="FireLogo" class="fire-logo" id="header-img">
         <h1 id="title" class="title">Original Fire Videos</h1>
         </div>
 
         <nav id="nav-bar">
-            <a href="index.html" class="nav-link">Features</a>
-            <a href="howworks.html" class="nav-link">How Its Works</a>
-            <a href="pricing.html"  class="nav-link">Princing</a>
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#howworks" class="nav-link">How Its Works</a>
+            <a href="#prices"  class="nav-link">Princing</a>
         </nav>
     </header>
     <main>
         <section class="form-and-features">
             <h2 class="subtitle">Home-made masterpieces</h2>
-            <form action="" id="form">
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
                 <input type="email" id="email" name="email" placeholder="Enter your email adress" required >
                 <input type="submit" id="submit" value="fire">
             </form>
             <article class="features">
-                <div><h4>Premium Materials</h4><p class="first-paragraph">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p></div>
-                <div><h4>Fast Shipping</h4><p class="second-paragraph">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p></div>
-                <div><h4>Quality Assurance</h4><p class="third-paragraph">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p></div>
+                <div class="detail"><h4 id="features">Premium Materials</h4><p class="first-paragraph">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p></div>
+                <div class="detail"><h4 id="howworks">Fast Shipping</h4><p class="second-paragraph">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p></div>
+                <div class="detail"><h4>Quality Assurance</h4><p class="third-paragraph">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p></div>
 
             </article>
         </section>
@@ -39,7 +39,25 @@
         <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/O2MDaJuwTCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </section>  
 
-        <section class="prices">
+        <section id="prices">
+            <div class="price">
+                <h5>Hot Fire</h5>
+                <p class="money">$1200</p>
+                <p class="price-description">Lorem ipsum dolor sit amet consectetur adipisi</p>
+                <button>Select</button>
+            </div>
+            <div class="price"> 
+                <h5>Warm Fire</h5>
+                <p class="money">$1000</p>
+                <p class="price-description">Lorem ipsum dolor sit amet consectetur adipisi</p>
+                <button>Select</button>
+            </div>
+            <div class="price">
+                <h5>Cold Fire</h5>
+                <p class="money">$500</p>
+                <p class="price-description">Lorem ipsum dolor sit amet consectetur adipisi</p>
+                <button>Select</button>
+            </div>
 
         </section>
     </main>
