@@ -23,6 +23,7 @@ header {
 }
 
 main {
+    top: 20px;
     width: 50%;
     
 }
@@ -60,8 +61,8 @@ main {
 
 
 #header-img {
-    width: 1.5em;  
-    margin-left: 5px;
+    width: 10px;  
+    margin-left: 1.5em;
 }
 
 .title {
@@ -149,7 +150,13 @@ h5 {
 
 button {
     display: block;
-    width: 25%;
+    width: 100px;
     background-color: darkred;
     border: 1 px gray;
+}
+
+@media only screen and (max-width:600px) {
+    #prices{
+        flex-direction: column;
+    }
 }
