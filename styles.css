@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(315deg, #a40606 0%, #d98324 74%)
+}
+
+
 .na-bar{
     position: sticky;
 }
